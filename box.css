@@ -1,0 +1,38 @@
+.parent{
+	background-color:black;
+	margin-top:25px;
+	height:1000px;
+	text-align:center;
+	color:white
+}
+.child1{
+	width:100px;
+	height:100px;
+	background-color:orange;
+	border:5px solid black;
+	margin-top:20px;
+	transition: width 1s,height 1s;
+}
+.child2{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	border:5px solid black;
+	margin-top:20px;
+	transition: width 3s,height 5s;
+}
+.child3{
+	width:100px;
+	height:100px;
+	background-color:green;
+	border:5px solid black;
+	margin-top:20px;
+	transition: width 6s,height 10s;
+}
+.child1:hover,.child2:hover,.child3:hover{
+	width:200px;
+	height:150px;
+	background-color:white
+}
+
+

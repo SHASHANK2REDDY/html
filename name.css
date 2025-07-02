@@ -1,0 +1,50 @@
+.parent{
+	margin-top:80px;
+	border:3px solid black;
+	width:30vw;
+	height:40vh;
+	background-color:yellow;
+	text-align:center;
+	color:white;
+	position:relative;
+	margin:50px;
+	animation-name:ram;
+	animation-duration:7s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease;
+	animation-direction:alternate
+}
+.child1{
+	margin:0px;
+	background-color:pink;
+	padding:20px
+}
+.child2{
+	background-color:blue;
+	padding-top:20px;
+	margin-top:5vh;
+	height:10vh
+}
+@keyframes ram{
+	0%{
+		left:0px;
+		top:0px;
+		background-color:red
+	}
+	25%{
+		left:25px;
+		top:40px;
+		background-color:blue
+	}
+	50%{
+		left:80px;
+		top:0px;
+		background-color:green
+	}
+	75%{
+		left:120px;
+		top:40px;
+		background-color:blue
+}
+
+		

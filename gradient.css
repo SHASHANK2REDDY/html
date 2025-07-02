@@ -1,0 +1,65 @@
+.parent{
+	height:100vh;
+	margin-left:25px;
+	text-align:center;
+	color:#ff43f6
+}
+.child1{
+	height:100px;
+	width:100px;
+	margin-top:20px;
+	background:linear-gradient(
+	red 20%,
+	white 20%,
+	white 40%,
+	blue 40%,
+	blue 60%,
+	green 60%,
+	green 80%,
+	orange 80%,
+	orange 100%
+	);
+}
+.child2{
+	height:100px;
+	width:100px;
+	margin-top:20px;
+	background:radial-gradient(
+	red 20%,
+	white 20%,
+	white 40%,
+	blue 40%,
+	blue 60%,
+	green 60%,
+	green 80%,
+	orange 80%,
+	orange 100%
+	);
+}
+.child3{
+	height:100px;
+	width:100px;
+	margin-top:20px;
+	background:conic-gradient(
+	red 20%,
+	white 20%,
+	white 40%,
+	blue 40%,
+	blue 60%,
+	green 60%,
+	green 80%,
+	orange 80%,
+	orange 100%
+	);
+}
+.oky{
+	border:5px solid black;
+	width:400px;
+	height:200px
+}
+.parents{
+	width:250px;
+	height:250px;
+	overflow:auto;
+	border:5px solid red
+}
